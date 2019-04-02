@@ -81,6 +81,7 @@ theme: alpha-dust
 deploy: 
   type: git
   repo: https://github.com/blackcatrecycler/blacatcatrecycler.github.io.git
+  branch: master
 
 #Plugins
 math:
