@@ -1,0 +1,45 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-gamepad
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+  Tags: /tags
+  Categories: /categories
+  Rss: /contact.html
+
+# Default post title
+default_post_title: 
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: reblacat
+
+# Google Analytics Tracking ID
+google_analytics:
+
+
+# Social Accounts
+twitter_url: https://twitter.com/?lang=en
+facebook_url: https://www.facebook.com/
+instagram_url: https://www.instagram.com/
+dribble_url: https://dribbble.com/
+github_url: https://github.com/blackcatrecycler
+googleplus_url: https://plus.google.com/
+behance_url: https://www.behance.net/
+fivehundredpx_url: https://500px.com/
+email_url: recyclerblacat@gmail.com
+rss_url: \#
+
+# Footer About Text
+footer_about: 一个热爱游戏，想要投身游戏事业的弱鸡，主要研究C#和C++，希望多多指点
+
+# Footer Copyright Line
+footer_copyright: "Copyright @2018-2018 <a href=\"http://www.reblacat.com/\">Blacat Recycler</a> All rights reserved | Design & Hexo <a href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+
