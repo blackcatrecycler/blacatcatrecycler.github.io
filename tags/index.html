@@ -61,11 +61,16 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
-    <!-- Google Analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <!-- Google Analytics -->
     
 
     
-
+    <!--Add mathjs-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {tex: {inlineMath: [['$', '$']]}};
+    </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 </head>
 
@@ -145,6 +150,12 @@
             <section class="main archive-container">
                 
                         <div class="archive-post">
+    <a href="/tags/Markdown/">
+        #Markdown
+    </a>
+</div>
+                
+                        <div class="archive-post">
     <a href="/tags/Cpp/">
         #Cpp
     </a>
@@ -153,12 +164,6 @@
                         <div class="archive-post">
     <a href="/tags/找工作/">
         #找工作
-    </a>
-</div>
-                
-                        <div class="archive-post">
-    <a href="/tags/Markdown/">
-        #Markdown
     </a>
 </div>
                 

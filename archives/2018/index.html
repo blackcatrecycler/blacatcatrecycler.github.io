@@ -61,11 +61,16 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
-    <!-- Google Analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <!-- Google Analytics -->
     
 
     
-
+    <!--Add mathjs-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {tex: {inlineMath: [['$', '$']]}};
+    </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 </head>
 
@@ -147,6 +152,15 @@
         <section class="main archive-container">
             
                 <div class="archive-post">
+    <a href="/2019/03/27/Markdown使用小总结/">
+        <span class="archive-date">
+            Mar 2019
+        </span>
+        Markdown使用小总结
+    </a>
+</div>
+            
+                <div class="archive-post">
     <a href="/2021/08/10/8-07网易笔试总结/">
         <span class="archive-date">
             Aug 2021
@@ -161,15 +175,6 @@
             Aug 2021
         </span>
         米哈游笔试总结
-    </a>
-</div>
-            
-                <div class="archive-post">
-    <a href="/2019/03/27/Markdown使用小总结/">
-        <span class="archive-date">
-            Mar 2019
-        </span>
-        Markdown使用小总结
     </a>
 </div>
             
