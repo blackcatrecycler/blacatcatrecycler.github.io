@@ -80,7 +80,8 @@ theme: alpha-dust
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/blackcatrecycler/blacatcatrecycler.github.io.git
+  #repo: https://github.com/blackcatrecycler/blacatcatrecycler.github.io.git
+  repo: git@github.com:blackcatrecycler/blacatcatrecycler.github.io.git
   branch: master
 
 #Plugins
